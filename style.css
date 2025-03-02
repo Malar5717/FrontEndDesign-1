@@ -394,3 +394,10 @@ progress::-webkit-progress-value {
     }
 
 }
+
+footer {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    padding: 10px;
+    text-align: center;
+}
