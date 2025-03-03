@@ -35,11 +35,12 @@ header nav ul li a:hover {
     display: none;
     cursor: pointer;
     background-color: var(--white);
+    padding: 5px;
 }
 
 
 .title {
-    background-image: url(./images/banner.png);
+    background-image: url(./images/banner.jpeg);  /* DPI 72 */
     opacity: 0.85;
     background-position: center;
     background-size: cover;
@@ -310,21 +311,24 @@ progress::-webkit-progress-value {
 }
 .proj:nth-child(2) { 
     grid-column-start: 3;
+    grid-column-end: 4;
     grid-row: span 4;
     /* background-color: #33FF57;  */
 }
-.proj:nth-child(3) { 
+
+.proj:nth-child(4) { 
     grid-column-start: 1;
     grid-row: span 2;
     /* background-color: #FF33A1; */
 }
-.proj:nth-child(4) { 
+.proj:nth-child(5) { 
     grid-column-start: 2;
     grid-row: span 2;
     /* background-color: yellow; */
 }
-.proj:nth-child(5) { 
-    grid-column-start: 4;
+
+.proj:nth-child(3) { 
+    grid-column-start: ;
     grid-row-start: 1;
     grid-row: span 2;
     /* background-color: #2b5968; */
@@ -334,7 +338,6 @@ progress::-webkit-progress-value {
     grid-column-start: 4;
     grid-row-start: 3;
     grid-row: span 2;
-    /* background-color: violet; */
 }
 
 @media (max-width: 900px) {
@@ -400,6 +403,18 @@ progress::-webkit-progress-value {
         max-width: 360px;
     }
 
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 30%;
+    padding: 10px;
+}
+.contact i {
+    color: var(--blue);
+    font-size: 1.1em;
 }
 
 footer {
