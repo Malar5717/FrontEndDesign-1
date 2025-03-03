@@ -39,7 +39,7 @@ header nav ul li a:hover {
 
 
 .title {
-    background-image: url(/images/banner.png);
+    background-image: url(./images/banner.png);
     opacity: 0.85;
     background-position: center;
     background-size: cover;
@@ -227,7 +227,7 @@ progress::-webkit-progress-value {
 .client {
     width: 240px;
     height: 240px;
-    background-image: url(/images/clients.jpg);
+    background-image: url(./images/clients.jpg);
     background-repeat: no-repeat;
     padding: 10px;
 }
