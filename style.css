@@ -173,6 +173,10 @@ header nav ul li a:hover {
     padding: 10px;
     gap: 5px;
 }
+.sk p {
+    font-size: 0.6rem;
+    font-weight: 850;
+}
 .skills div {
     width: 45%; 
 }
@@ -181,6 +185,7 @@ progress {
     height: 6.3px;
     appearance: none;
     border-radius: 5px;
+    align-items: left;
 }
 progress::-webkit-progress-value {
     background-color: var(--blue);
